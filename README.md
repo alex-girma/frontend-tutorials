@@ -7,3 +7,6 @@ This is a [Next.js](https://nextjs.org/) project to learn frontend development u
 - TypeScript
 
 ## Tuturials
+
+- React Docs
+- NextJS Docs
