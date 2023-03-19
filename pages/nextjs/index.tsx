@@ -4,15 +4,15 @@ import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
+export default function NextJS() {
   return (
     <>
       <Head>
-        <title>Frontend Tutorials</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>NextJS Tutorial</title>
       </Head>
-      <main>Frontend Tutorial</main>
-      <Link href="/nextjs">NextJS</Link>
+      <h1>NextJS Tutorial</h1>
+      <Link href="/">Back to Home</Link>
+      <Link href="nextjs/posts/first-post">First Post</Link>
     </>
   );
 }
